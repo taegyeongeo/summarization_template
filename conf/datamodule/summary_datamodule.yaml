@@ -1,0 +1,11 @@
+_target_: dataset.SummaryDataModule
+
+model_name_or_path: hyunwoongko/kobart  
+data_files_dir: 
+max_context_seq_len: 512 
+max_label_seq_len: 30 
+train_batch_size: 4 
+eval_batch_size: 4 
+num_processes: 1 
+model_type: bart  
+task: summarization  
